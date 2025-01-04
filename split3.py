@@ -1,7 +1,7 @@
 import ffmpeg
 import os
 
-def split_audio(input_file, output_dir, segment_duration):
+def split_audio(input_file, output_dir, segment_duration=5):
     """
     Splits the input audio file into smaller chunks.
 

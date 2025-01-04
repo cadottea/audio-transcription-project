@@ -1,0 +1,33 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+activate_whisper_cpp/
+
+# Ignore trash folder where deleted files are stored
+trash/
+
+# Ignore the Git directory
+.git/
+
+# Ignore lock files
+*.lock
+
+# Ignore generated directories (e.g., build, dist, etc.)
+build/
+dist/
+*.egg-info/
+
+# Ignore specific files and directories you don't want to track
+*.log
+*.bak
+*.swp
+
+# Ignore directions.txt
+directions.txt
